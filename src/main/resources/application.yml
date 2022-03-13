@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: secure-jwt-usage
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
+server:
+  port: 8096
+
+jwt:
+  secret: 58cr8t
